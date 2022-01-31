@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+.section1-div{
+    background-color:#1f2535 ;
+    font-size: 25px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    align-items: flex-start;
+}
+
+h1{  
+    font-size:70px;
+}
+
+.container1{
+    padding:20px;
+}
+button{
+    background-color:white;
+    border-radius:5px;
+    width:150px;
+    height: 70px;
+    font-size:25px;
+    color: #1f2535;
+}
