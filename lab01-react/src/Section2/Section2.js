@@ -1,13 +1,13 @@
 import React from "react";
 import './Section2.css';
-import card1 from './images/icon1.png';
-import card2 from './images/icon2.png';
-import card3 from './images/icon3.png';
-import card4 from './images/icon4.png';
+import card1 from '../images/icon1.png';
+import card2 from '../images/icon2.png';
+import card3 from '../images/icon3.png';
+import card4 from '../images/icon4.png';
 
 function Section2(){
     return(
-        <section class='cards-div'>
+        <section class='section2'>
                 <div class='card'>
                     <img class='icon' src={card1} alt='card1'/>
                     <div class="container">
@@ -19,8 +19,7 @@ function Section2(){
                 <div class='card'>
                     <img class='icon' src={card2}alt='card2' />
                     <div class="container">
-                        <h4><b>Components</b></h4>
-                        
+                        <h4><b>Components</b></h4>                        
                         <p>Build encapsulated components taht manage their state.</p>
                     </div>
                 </div>

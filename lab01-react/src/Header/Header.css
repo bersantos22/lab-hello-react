@@ -3,10 +3,12 @@
     margin: 0px;
     font-family: 'Mukta', sans-serif;
 }
-.header-div{
+.header{
     display: flex;
     background-color:#1f2535 ;
-    padding: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:30px;
     justify-content: space-between;
 }
 
